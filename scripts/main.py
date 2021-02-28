@@ -7,8 +7,8 @@ import random
 #print(dando_o_cu)
 
 #
-def dando_o_cu(lados_dado):
+def dado_valores(lados_dado):
     for lados_dado in range(1):
         print(random.randint(1,6))
 
-dando_o_cu(1)
+dado_valores(1)
